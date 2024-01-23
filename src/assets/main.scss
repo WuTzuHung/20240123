@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600&family=Open+Sans:ital,wght@0,300;1,600&display=swap');
+
+@import '../../node_modules/bootstrap/scss/functions';
+
+@import '../assets/stylesheet/variables';
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+body{
+    margin: 0;
+}
+
+*{
+    font-family:'Noto Serif JP', serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
