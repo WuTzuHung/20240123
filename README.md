@@ -7,7 +7,7 @@
 2.人物與大標題使用了animate.css的入場動畫特效
 ![螢幕擷取畫面 2023-12-08 020811](https://github.com/WuTzuHung/HoshikawaWebDesign/assets/151004287/449e7fbb-9fba-4f37-b57e-1fb554c0932c)
 
-使用BootStrap的跑馬燈
+使用BootStrap的跑馬燈，並使容器中圖片的比例保持一致
 ![螢幕擷取畫面 2023-12-08 020919](https://github.com/WuTzuHung/HoshikawaWebDesign/assets/151004287/f15b6d6e-b0be-44e2-bb75-34ad5d26c1f2)
 
 使用小卡片作自我介紹，上層放上gif動畫，下層加上轉換顏色的hover效果
