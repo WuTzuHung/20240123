@@ -24,10 +24,10 @@ export default {
         <p class="tex1">The following content features a quirky effects combination</p>
         <p class="tex2">showcasing a variety of Hoshikawa Sara in different styles</p> 
         <button class="b" @click="this.handle()">
-                <img src="FITjkdEakAE1PHV.png" alt="Your Image" style="  ">
+                <img src="../picture/FITjkdEakAE1PHV.png" alt="Your Image" style="  ">
             </button>
             
-        <img src="hoshikawa_sara.png" class="animate__animated animate__fadeInRight"
+        <img src="../picture/hoshikawa_sara.png" class="animate__animated animate__fadeInRight"
                 style="width: 540px; height: 680px;" alt="...">
               
     </div>
@@ -36,12 +36,12 @@ export default {
 <div class="back2 ">
     <div class="boxH3">
       <div class="image-container imgx" style="width: 400px;">
-      <img class="img520 imgx" src="520.png" alt="Original Image">
+      <img class="img520 imgx" src="../picture/520.png" alt="Original Image">
       </div>
       <div class="image-container2 imgy" style="width: 400px;">
-      <img class="img522 imgy" src="520.png" alt="Original Image">
+      <img class="img522 imgy" src="../picture/520.png" alt="Original Image">
       </div>
-      <img class="hoshiU1" src="03.gif" alt="">
+      <img class="hoshiU1" src="../picture/03.gif" alt="">
       
     </div>
 </div>
@@ -51,22 +51,22 @@ export default {
       <div class="card-container">
   <div class="card">
     <div class="front">
-      <img class="kawaii01" src="kawaii01.png" alt="">
+      <img class="kawaii01" src="../picture/kawaii01.png" alt="">
     </div>
     <div class="back1">
-      <img class="kawaii02" src="kawaii02.png" alt="">
+      <img class="kawaii02" src="../picture/kawaii02.png" alt="">
     </div>
   </div>
 </div>
 <!-- <div class="card-container2"> -->
 <div class="card2">
     <div class="front2">
-      <img class="hoshiU2" src="11.gif" alt="">
-      <img class="hoshiU4" src="11.gif" alt="">
+      <img class="hoshiU2" src="../picture/11.gif" alt="">
+      <img class="hoshiU4" src="../picture/11.gif" alt="">
     </div>
     <div class="back5">
-      <img class="hoshiU3" src="06.gif" alt="">
-      <img class="hoshiU5" src="06.gif" alt="">
+      <img class="hoshiU3" src="../picture/06.gif" alt="">
+      <img class="hoshiU5" src="../picture/06.gif" alt="">
     </div>
   </div>
 </div>
@@ -257,7 +257,7 @@ button {
 
     .image-container:hover img {
   /* 新的圖片路徑 */
-  content: url('521.png');
+  content: url('../picture/521.png');
   /* 或者使用 background-image 屬性 */
   /* background-image: url('new-image.jpg'); */
   /* 設定適當的寬度和高度 */
@@ -287,7 +287,7 @@ button {
 
 .image-container2:hover img {
   /* 新的圖片路徑 */
-  content: url('522.png');
+  content: url('../picture/522.png');
   /* 或者使用 background-image 屬性 */
   /* background-image: url('new-image.jpg'); */
   /* 設定適當的寬度和高度 */

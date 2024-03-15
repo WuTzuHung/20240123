@@ -23,9 +23,9 @@ export default {
         <p class="tex2">motivation for wanting to go to Japan and my</p> 
         <p class="tex3">experience in learning programming</p>
         <button class="b" @click="this.handle()">
-                <img src="FITjkdEakAE1PHV.png" alt="Your Image" style="  ">
+                <img src="../picture/FITjkdEakAE1PHV.png" alt="Your Image" style="  ">
             </button>
-        <img src="11.png" class="animate__animated animate__fadeInLeft"
+        <img src="../picture/11.png" class="animate__animated animate__fadeInLeft"
                 style="width: 520px; height: 690px;" alt="...">
                 
     </div>
@@ -35,21 +35,21 @@ export default {
     <div class="boxH2">
       <div class="wrap">
 		<div class="item">
-			<img src="02.gif">
+			<img src="../picture/02.gif">
 			<div class="txt">
 				<h2>自我介紹</h2>
 				<p>初めまして、私は呉梓宏と申します。去年は世新大学の日本語学科から卒業して、今年は無事に義務兵役終わりました。普段の趣味は日本の漫画を読むこととライバーさんの配信を聞くことです。漫画を読むことで日本の文化やストーリーに没頭するのが好きで、配信を聞くことはリラックスや気分転換になります。</p>
 			</div>
 		</div>
 		<div class="item">
-			<img src="10.gif">
+			<img src="../picture/10.gif">
 			<div class="txt">
 				<h2>來日動機</h2>
 				<p>小学校から今まで、私はずっと日本の文化に惹かれていました。将来、日本で仕事をすることが私の夢です。それを実現するために、高校と大学では日本語学科を選び、勉強を始めました。高校時代には、日本の高松で短期留学を経験し、日本で生活したい気持ちがさらに強く確信しました。</p>
 			</div>
 		</div>
 		<div class="item">
-			<img src="05.gif">
+			<img src="../picture/05.gif">
 			<div class="txt">
 				<h2>程式經驗</h2>
 				<p>日本語能力だけでは足りないと感じました。大学一年生のときは少しでPythonの授業を取る経験があって、プログラムを作成する過程で達成感を味わうことができました。ちょうど先月は友達からJAVAの学習ができる授業があると聞いたので、最近は毎日コーディングを練習して、JAVAの学習を始めました。</p>

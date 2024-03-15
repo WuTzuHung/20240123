@@ -48,19 +48,19 @@ export default {
             <p class="tex2">a fun and enjoyable way</p>
             <!-- <router-link to="/introduce"> -->
             <button class="a" @click="handleClick">
-                <img src="01.png" alt="Your Image" style="   ">
+                <img src="../picture/01.png" alt="Your Image" style="   ">
             </button>
             <!-- </router-link> -->
 
             <button class="b" @click="this.handle()">
-                <img src="FITjkdEakAE1PHV.png" alt="Your Image" style="  ">
+                <img src="../picture/FITjkdEakAE1PHV.png" alt="Your Image" style="  ">
             </button>
 
 
             <button class="c" @click="this.hand()">
-                <img src="8888888888888.png" alt="Your Image" style=" width: 100px; height: 100px;">
+                <img src="../picture/8888888888888.png" alt="Your Image" style=" width: 100px; height: 100px;">
             </button>
-            <img src="hoshikawaseefuku.png" class="animate__animated animate__fadeInRight"
+            <img src="../picture/hoshikawaseefuku.png" class="animate__animated animate__fadeInRight"
                 style="width: 475px; height: 700px;" alt="...">
         </div>
     </div>

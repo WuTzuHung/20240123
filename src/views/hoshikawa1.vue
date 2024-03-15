@@ -18,15 +18,14 @@ export default {
 <template>
     <div class="back2">
     <div class="boxH3">
-        <!-- <img class="multi_ani" src="燒.png" alt=""> -->
         <h1 class="animate__animated animate__backInRight h1get">Clothing</h1>
         <p class="tex1">The following content demonstrates various fashionable </p>
         <p class="tex2">outfits of Hoshikawasara using special features</p> 
         <p class="tex3">along with her different adorable expressions</p>
         <button class="b" @click="this.handle()">
-                <img src="FITjkdEakAE1PHV.png" alt="Your Image" style="  ">
+            <img src="../picture/FITjkdEakAE1PHV.png" alt="Your Image">
             </button>
-        <img src="20.png" class="animate__animated animate__fadeInLeft"
+        <img src="../picture/20.png" class="animate__animated animate__fadeInLeft"
                 style="width: 380px; height: 675px;" alt="...">
     </div>
 </div>
@@ -35,34 +34,34 @@ export default {
 	<div class="view">
 		<div class="pic-container">
 			<div class="pic">
-				<img src="image-proxy.webp" alt="" />
+				<img src="../picture/image-proxy.webp" alt="" />
 			</div>
 			<div class="pic">
-				<img src="liver-full-body_Sara_Hoshikawa_costume2.webp" alt="" />
+				<img src="../picture/liver-full-body_Sara_Hoshikawa_costume2.webp" alt="" />
 			</div>
 			<div class="pic">
-				<img src="10.png" alt="" />
+				<img src="../picture/10.png" alt="" />
 			</div>
 			<div class="pic">
-				<img src="006.png" alt="" />
+				<img src="../picture/006.png" alt="" />
 			</div>
 			<div class="pic">
-				<img src="100.png" alt="" />
+				<img src="../picture/100.png" alt="" />
 			</div>
 			<div class="pic">
-				<img src="20.png" alt="" />
+				<img src="../picture/20.png" alt="" />
 			</div>
 			<div class="pic">
-				<img src="tsuinteruhoshi.png" alt="" />
+				<img src="../picture/tsuinteruhoshi.png" alt="" />
 			</div>
 			<div class="pic">
-				<img src="18.png" alt="" />
+				<img src="../picture/18.png" alt="" />
 			</div>
             <div class="pic">
-				<img src="101.png" alt="" />
+				<img src="../picture/101.png" alt="" />
 			</div>
 			<div class="pic">
-				<img src="002.png" alt="" />
+				<img src="../picture/002.png" alt="" />
 			</div>
 		</div>
 	</div>
