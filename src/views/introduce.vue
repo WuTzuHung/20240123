@@ -37,22 +37,22 @@ export default {
 		<div class="item">
 			<img src="../picture/02.gif">
 			<div class="txt">
-				<h2>自我介紹</h2>
-				<p>初めまして、私は呉梓宏と申します。去年は世新大学の日本語学科から卒業して、今年は無事に義務兵役終わりました。普段の趣味は日本の漫画を読むこととライバーさんの配信を聞くことです。漫画を読むことで日本の文化やストーリーに没頭するのが好きで、配信を聞くことはリラックスや気分転換になります。</p>
+				<h2>自己紹介</h2>
+				<p>初めまして、私は呉梓宏と申します。一昨年は世新大学の日本語学科から卒業して、去年は無事に義務兵役終わりました。普段の趣味は日本の漫画を読むこととライバーさんの配信を聞くことです。漫画を読むことで日本の文化やストーリーに没頭するのが好きで、配信を聞くことはリラックスや気分転換になります。</p>
 			</div>
 		</div>
 		<div class="item">
 			<img src="../picture/10.gif">
 			<div class="txt">
-				<h2>來日動機</h2>
-				<p>小学校から今まで、私はずっと日本の文化に惹かれていました。将来、日本で仕事をすることが私の夢です。それを実現するために、高校と大学では日本語学科を選び、勉強を始めました。高校時代には、日本の高松で短期留学を経験し、日本で生活したい気持ちがさらに強く確信しました。</p>
+				<h2>来日動機</h2>
+				<p>小学校から今まで、私はずっと日本の文化に惹かれていました。将来、日本で仕事をすることが私の夢です。それを実現するために、高校と大学では日本語学科を選び、勉強を始めました。高校時代には、日本で短期留学を経験し、日本で生活したい気持ちがさらに強く確信しました。</p>
 			</div>
 		</div>
 		<div class="item">
 			<img src="../picture/05.gif">
 			<div class="txt">
-				<h2>程式經驗</h2>
-				<p>日本語能力だけでは足りないと感じました。大学一年生のときは少しでPythonの授業を取る経験があって、プログラムを作成する過程で達成感を味わうことができました。ちょうど先月は友達からJAVAの学習ができる授業があると聞いたので、最近は毎日コーディングを練習して、JAVAの学習を始めました。</p>
+				<h2>コーディングの経験</h2>
+				<p>最初は日本語能力だけでは足りないと感じたため、友達からWebコーディングが学べる学校があると聞いたので、去年から台南応用科技大学で半年ほどのWebコーディング授業を受け、毎日プログラミング言語の知識を勉強し、コーディングを練習しています。</p>
 			</div>
 		</div>
 	</div>
@@ -224,19 +224,27 @@ body{
 	left: 0;
 	top: 0;
 	border-top: 50px solid transparent;
-	border-left: 184px solid #fff;
-	border-right: 184px solid #fff;
+	// border-left: 184px solid #fff;
+	// border-right: 184px solid #fff;
 	transform: translateY(-100%);
 }
 .item:hover{
 	transform: translateY(-50px);
 }
-.item:hover .txt{
+.item:hover {
 	background-image: linear-gradient(0deg,#FB8076, #FEB85D);
 }
 .item:hover .txt:before{
-	border-left: 184px solid #FEB85D;
-	border-right: 184px solid #FEB85D;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    
+	border-left: 184px solid #FB8076;
+	border-right: 184px solid #FB8076;
 }
 .item:hover h2{
 	color: #fff;
