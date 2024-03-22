@@ -1,4 +1,6 @@
-[1208-第三次發表-吳梓宏.pptx](https://github.com/WuTzuHung/HoshikawaWebDesign/files/14339786/1208-.-.pptx)
+部屬後的網頁：https://65f8680dd458a70008173bc4--hoshikawa.netlify.app/
+
+發表的PPT報告：[1208-第三次發表-吳梓宏.pptx](https://github.com/WuTzuHung/HoshikawaWebDesign/files/14339786/1208-.-.pptx)
 
 使用：HTML、SCSS、pinia、Vue、Bootstrap、JavaScript、animate.css
 
