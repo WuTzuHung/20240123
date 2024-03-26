@@ -1,6 +1,6 @@
 部屬後的網頁(ホームページへのリンク)：https://65f8680dd458a70008173bc4--hoshikawa.netlify.app/
 
-發表的PPT報告(発表されたPPT報告)：[1208-第三次發表-吳梓宏.pptx](https://github.com/WuTzuHung/HoshikawaWebDesign/files/14339786/1208-.-.pptx)
+發表的PPT報告(発表されたPPT報告)：[1208-第三次發表-吳梓宏.pdf](https://github.com/WuTzuHung/HoshikawaWebDesign/files/14752303/1208-.-.pdf)
 
 使用技術：HTML、SCSS、pinia、Vue、Bootstrap、JavaScript、animate.css
 
