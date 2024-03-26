@@ -5,9 +5,11 @@
 使用技術：HTML、SCSS、pinia、Vue、Bootstrap、JavaScript、animate.css
 
 首頁，左下有三個按鈕可分別進入不同的Vue頁面，按鈕使用了可上下漂浮的JS功能，提醒使用者點選
+
 人物與大標題使用了animate.css的入場動畫特效 
 
 ホームページには、左下に3つのボタンがあり、それぞれ異なるVueページに移動できます。これらのボタンは、ユーザーがクリックするように促すために、上下に浮動するJavaScript機能が使用されています。
+
 人物とメインタイトルには、animate.cssの入場アニメーション特效が使用されています。
 ![螢幕擷取畫面 2023-12-08 020811](https://github.com/WuTzuHung/HoshikawaWebDesign/assets/151004287/449e7fbb-9fba-4f37-b57e-1fb554c0932c)
 
