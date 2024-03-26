@@ -26,6 +26,7 @@ BootStrapのスライダーを使用し、コンテナ内の画像の比率を�
 使用轉換圖片本身的hover效果
 
 画像自体のホバー効果を使用します。
+
 ![螢幕擷取畫面 2023-12-08 021116](https://github.com/WuTzuHung/HoshikawaWebDesign/assets/151004287/dbe2f7ad-53a5-48f3-862a-bfe8e8bcc9ec)
 
 ![螢幕擷取畫面 2023-12-08 021127](https://github.com/WuTzuHung/HoshikawaWebDesign/assets/151004287/de463ee4-6aee-4d7f-86f1-16acfedcac05)
