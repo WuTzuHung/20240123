@@ -24,7 +24,7 @@ BootStrapのスライダーを使用し、コンテナ内の画像の比率を�
 
 自己紹介のためにカードを使用し、上部にGIFアニメーションを配置し、下部にホバー効果で色を変えます。
 
-![螢幕擷取畫面 2023-12-08 090512](https://github.com/WuTzuHung/HoshikawaWebDesign/assets/151004287/c99c5c64-0caf-45d6-9fc7-c18a168252f6)
+![螢幕擷取畫面 2024-03-26 123606](https://github.com/WuTzuHung/HoshikawaWebDesign/assets/151004287/8de0950f-ccd6-4a54-93a5-c58a9d67ac72)
 
 使用轉換圖片本身的hover效果
 
