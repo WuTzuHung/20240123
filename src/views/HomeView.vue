@@ -68,6 +68,10 @@ export default {
 
 <style scoped lang="scss">
 
+body{
+    overflow: hidden;
+}
+
 .a{
     margin-top: 10px;
 }
@@ -138,9 +142,9 @@ button {
 
 .back {
     position: relative;
-    width: 99vw;
-    height: 80vh;
-    left: 6px;
+    width: 99.5vw;
+    height: 82vh;
+    margin-left: 3px;
     background-color: rgb(251, 200, 105);
     border-radius: 10px;
     // z-index: 1;
@@ -165,10 +169,10 @@ button {
 
 .boxHoshi {
     position: relative;
-    width: 96vw;
-    height: 90vh;
+    width: 97vw;
+    height: 91vh;
     bottom: 40px;
-    left: 0px;
+    // margin-left: 0px;
     background: linear-gradient(to bottom, #fab80d 70%, #ffd134 100%);
     border-radius: 10px;
 
