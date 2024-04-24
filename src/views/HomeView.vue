@@ -231,6 +231,8 @@ button {
         width: 100%;
         height: 300vh;
     }
-
+    .back{
+        width: 80%;
+    }
 }
 </style>
