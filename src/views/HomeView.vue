@@ -47,8 +47,9 @@ export default {
             <p class="tex1">For those curious about Hoshikawa, exploring in </p>
             <p class="tex2">a fun and enjoyable way</p>
             <!-- <router-link to="/introduce"> -->
+                <div class="BoxButton">
             <button class="a" @click="handleClick">
-                <img src="../picture/01.png" alt="Your Image" style="   ">
+                <img src="../picture/FITjkdEakAE1PHV.png" alt="Your Image" style="   ">
             </button>
             <!-- </router-link> -->
 
@@ -58,10 +59,11 @@ export default {
 
 
             <button class="c" @click="this.hand()">
-                <img src="../picture/8888888888888.png" alt="Your Image" style=" width: 100px; height: 100px;">
+                <img src="../picture/FITjkdEakAE1PHV.png" alt="Your Image" style="">
             </button>
             <img src="../picture/hoshikawaseefuku.png" class="animate__animated animate__fadeInRight"
                 style="width: 475px; height: 700px;" alt="...">
+            </div>
         </div>
     </div>
 </template>
@@ -70,21 +72,31 @@ export default {
 
 body{
     overflow: hidden;
+    // width: 100%;
+    // height: 100vh;
 }
 
-.a{
-    margin-top: 10px;
-}
-.b{
-    margin-left: 145px;
+.BoxButton{
+    margin-top: 19%;
+    margin-right: 55%;
+
+    .a, .b, .c{
+        margin-right: 5%;
+    }
+
+
 }
 
-.c{
-    margin-left: 320px;
-    margin-top: 10px;
-}
+
+// .b{
+//     margin-top: 10px;
+// }
+
+// .c{
+//     margin-top: 10px;
+// }
 button {
-    position: absolute;
+    // position: absolute;
     // left: 220px;
     // top: 455px;
     border: none;
@@ -93,9 +105,10 @@ button {
     cursor: pointer;
 
     float: right;
-    position: absolute;
-    top: 425px;
-    left: 210px;
+    // margin-right: 150px;
+    // position: absolute;
+    // top: 425px;
+    // left: 210px;
     -webkit-animation: baloon_1 3s infinite;
     -moz-animation: baloon_1 3s infinite;
     -ms-animation: baloon_1 3s infinite;
@@ -142,9 +155,9 @@ button {
 
 .back {
     position: relative;
-    width: 99.5vw;
+    width: 100%;
     height: 82vh;
-    margin-left: 3px;
+    // margin-left: 3px;
     background-color: rgb(251, 200, 105);
     border-radius: 10px;
     // z-index: 1;
@@ -168,8 +181,9 @@ button {
 }
 
 .boxHoshi {
+    padding-top: 10%;
     position: relative;
-    width: 97vw;
+    width: 97%;
     height: 91vh;
     bottom: 40px;
     // margin-left: 0px;
@@ -179,8 +193,8 @@ button {
     // z-index: 2;
     .animate__animated.animate__fadeInRight {
         position: absolute;
-        left: 850px;
-        bottom: 0px;
+        left: 60%;
+        bottom: 0%;
     }
 
     .h1get {
@@ -210,5 +224,13 @@ button {
         top: 395px;
     }
     
+}
+
+@media (max-width: 720px) {
+    body {
+        width: 100%;
+        height: 300vh;
+    }
+
 }
 </style>
