@@ -90,19 +90,12 @@ body{
 }
 
 button {
-    // position: absolute;
-    // left: 220px;
-    // top: 455px;
     border: none;
     padding: 0;
     background: none;
     cursor: pointer;
 
     float: right;
-    // margin-right: 150px;
-    // position: absolute;
-    // top: 425px;
-    // left: 210px;
     -webkit-animation: baloon_1 3s infinite;
     -moz-animation: baloon_1 3s infinite;
     -ms-animation: baloon_1 3s infinite;
@@ -179,7 +172,7 @@ button {
     position: relative;
     width: 97%;
     height: 91vh;
-    bottom: 40px;
+    bottom: 5.9vh;
     // margin-left: 0px;
     background: linear-gradient(to bottom, #fab80d 70%, #ffd134 100%);
     border-radius: 10px;
