@@ -48,21 +48,21 @@ export default {
             <p class="tex2">a fun and enjoyable way</p>
             <!-- <router-link to="/introduce"> -->
                 <div class="BoxButton">
-            <button class="a" @click="handleClick">
+            <button class="a PictureAbc" @click="handleClick">
                 <img src="../picture/FITjkdEakAE1PHV.png" alt="Your Image" style="   ">
             </button>
             <!-- </router-link> -->
 
-            <button class="b" @click="this.handle()">
+            <button class="b PictureAbc" @click="this.handle()">
                 <img src="../picture/FITjkdEakAE1PHV.png" alt="Your Image" style="  ">
             </button>
 
 
-            <button class="c" @click="this.hand()">
+            <button class="c PictureAbc" @click="this.hand()">
                 <img src="../picture/FITjkdEakAE1PHV.png" alt="Your Image" style="">
             </button>
             <img src="../picture/hoshikawaseefuku.png" class="animate__animated animate__fadeInRight"
-                style="width: 475px; height: 700px;" alt="...">
+                style="" alt="...">
             </div>
         </div>
     </div>
@@ -78,23 +78,17 @@ body{
 
 .BoxButton{
     margin-top: 19%;
-    margin-right: 55%;
+    margin-right: 57%;
 
-    .a, .b, .c{
-        margin-right: 5%;
+    .PictureAbc{
+        margin-right: 18%;
+        width: 5%;
+        height: 5%;
     }
 
 
 }
 
-
-// .b{
-//     margin-top: 10px;
-// }
-
-// .c{
-//     margin-top: 10px;
-// }
 button {
     // position: absolute;
     // left: 220px;
@@ -161,7 +155,7 @@ button {
     background-color: rgb(251, 200, 105);
     border-radius: 10px;
     // z-index: 1;
-    margin-top: 100px;
+    margin-top: 6.6%;
 
     &::before {
         content: '';
@@ -195,33 +189,37 @@ button {
         position: absolute;
         left: 60%;
         bottom: 0%;
+        width: 32%; 
+        height: 100vh;
     }
 
     .h1get {
         position: absolute;
-        left: 220px;
-        top: 150px;
-        font-size: 40pt;
+        left: 14.5%;
+        top: 25%;
+        font-size: 3.5rem;
 
     }
 
     .h1hoshi {
         position: absolute;
-        left: 285px;
-        top: 250px;
-        font-size: 40pt;
+        left: 19%;
+        top: 40%;
+        font-size: 3.5rem;
     }
 
     .tex1 {
         position: absolute;
-        left: 235px;
-        top: 360px;
+        left: 16%;
+        top: 56%;
+        font-size:1rem;
     }
 
     .tex2 {
         position: absolute;
-        left: 235px;
-        top: 395px;
+        left: 16%;
+        top: 63%;
+        font-size:1rem;
     }
     
 }
