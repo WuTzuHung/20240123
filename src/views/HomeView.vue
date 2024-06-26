@@ -218,12 +218,24 @@ button {
 }
 
 @media (max-width: 720px) {
-    body {
-        width: 100%;
-        height: 300vh;
-    }
+    
     .back{
-        width: 80%;
+        height: 88vh;
+        // margin-top: 9%;
+    }
+
+    .boxHoshi{
+        height: 93vh;
+        bottom: 0vh;
+
+        .animate__animated.animate__fadeInRight {
+        position: absolute;
+        left: 45%;
+        bottom: 0%;
+        width: 55%; 
+        height: 85vh;
+    }
+
     }
 }
 </style>

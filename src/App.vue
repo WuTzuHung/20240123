@@ -51,7 +51,7 @@ import Header from "./components/Header.vue";
 
 <style scoped lang="scss">
 .header{
-  width: 100vw;
+  width: 100%;
   height: 0vh;
   transition: 1s;
   &:hover{
@@ -60,7 +60,7 @@ import Header from "./components/Header.vue";
 }
 
 .content{
-  width: 100vw;
+  width: 100%;
   height: 70vh;
   text-align: center;
 }
