@@ -217,7 +217,7 @@ button {
     
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
     
     .back{
         height: 88vh;
@@ -225,14 +225,14 @@ button {
     }
 
     .boxHoshi{
-        height: 93vh;
+        height: 92vh;
         bottom: 0vh;
 
         .animate__animated.animate__fadeInRight {
         position: absolute;
         left: 45%;
         bottom: 0%;
-        width: 55%; 
+        width: 53%; 
         height: 85vh;
     }
 
