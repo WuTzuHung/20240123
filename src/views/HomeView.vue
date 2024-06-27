@@ -143,36 +143,37 @@ button {
 .back {
     position: relative;
     width: 100%;
-    height: 82vh;
+    height: 95vh;
     // margin-left: 3px;
     background-color: rgb(251, 200, 105);
     border-radius: 10px;
     // z-index: 1;
-    margin-top: 6.6%;
+    // margin-top: 6.6%;
 
-    &::before {
-        content: '';
-        position: absolute;
-        top: -16%;
-        /* 調整這個值，控制 .back 向上延伸的高度 */
-        left: 0;
-        width: 100%;
-        height: 80%;
-        /* 額外向上延伸的高度 */
-        // background-color: inherit;
-        background-color: rgb(251, 200, 105);
-        border-radius: 10px;
+    // &::before {
+    //     content: '';
+    //     position: absolute;
+    //     top: -16%;
+    //     /* 調整這個值，控制 .back 向上延伸的高度 */
+    //     left: 0;
+    //     width: 100%;
+    //     height: 80%;
+    //     /* 額外向上延伸的高度 */
+    //     // background-color: inherit;
+    //     background-color: rgb(251, 200, 105);
+    //     border-radius: 10px;
 
-        // z-index: -1;
-    }
+    //     // z-index: -1;
+    // }
 }
 
 .boxHoshi {
     padding-top: 10%;
     position: relative;
-    width: 97%;
-    height: 91vh;
-    bottom: 5.9vh;
+    width: 98%;
+    height: 94vh;
+    top:6vh;
+    // bottom: 5.9vh;
     // margin-left: 0px;
     background: linear-gradient(to bottom, #fab80d 70%, #ffd134 100%);
     border-radius: 10px;
@@ -217,21 +218,23 @@ button {
     
 }
 
-@media (max-width: 768px) {
+@media (max-width: 450px) {
     
     .back{
-        height: 88vh;
+        height: 100vh;
+        border-radius: 0px;
     }
 
     .boxHoshi{
-        height: 92vh;
+        // height: 100vh;
+        width: 95%;
         bottom: 0vh;
 
         .animate__animated.animate__fadeInRight {
         position: absolute;
-        left: 32%;
+        left: 9%;
         bottom: 0%;
-        width: 70%; 
+        width: 95%; 
         height: 80vh;
     }
 
