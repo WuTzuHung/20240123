@@ -221,7 +221,6 @@ button {
     
     .back{
         height: 88vh;
-        // margin-top: 9%;
     }
 
     .boxHoshi{
@@ -230,10 +229,10 @@ button {
 
         .animate__animated.animate__fadeInRight {
         position: absolute;
-        left: 45%;
+        left: 32%;
         bottom: 0%;
-        width: 53%; 
-        height: 85vh;
+        width: 70%; 
+        height: 80vh;
     }
 
     }
