@@ -202,13 +202,13 @@ button {
 @media (max-width: 450px) {
     
     .back{
-        height: 100vh;
+        height: 100dvh;
         border-radius: 0px;
     }
 
     .boxHoshi{
         width: 95%;
-        height: 95vh;
+        height: 95dvh;
         top:5vh;
 
         .animate__animated.animate__fadeInRight {
@@ -216,7 +216,7 @@ button {
         left: 9%;
         bottom: 0%;
         width: 95%; 
-        height: 80vh;
+        height: 80dvh;
     }
 
     .wordsH{
