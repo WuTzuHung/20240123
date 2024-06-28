@@ -74,7 +74,7 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
 }
 
 // .BoxButton{
@@ -202,13 +202,13 @@ button {
 @media (max-width: 450px) {
     
     .back{
-        height: 100vh;
+        height: 100dvh;
         border-radius: 0px;
     }
 
     .boxHoshi{
         width: 95%;
-        height: 95vh;
+        height: 95dvh;
         top:5vh;
 
         .animate__animated.animate__fadeInRight {
