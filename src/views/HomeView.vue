@@ -42,10 +42,10 @@ export default {
 <template>
     <div class="back">
         <div class="boxHoshi" style="">
-            <h1 class="animate__animated animate__backInLeft h1get">Getting to know </h1>
-            <h1 class="animate__animated animate__backInLeft h1hoshi ">Hoshikawa</h1>
-            <p class="tex1">For those curious about Hoshikawa, exploring in </p>
-            <p class="tex2">a fun and enjoyable way</p>
+            <h1 class="animate__animated animate__backInLeft h1get wordsH">Getting to know </h1>
+            <h1 class="animate__animated animate__backInLeft h1hoshi wordsH">Hoshikawa</h1>
+            <p class="tex1 wordsH">For those curious about Hoshikawa, exploring in </p>
+            <p class="tex2 wordsH">a fun and enjoyable way</p>
             <!-- <router-link to="/introduce"> -->
                 <div class="BoxButton">
             <button class="a PictureAbc" @click="handleClick">
@@ -72,22 +72,22 @@ export default {
 
 body{
     overflow: hidden;
-    width: 100%;
+    // width: 100%;
     // height: 100vh;
 }
 
-.BoxButton{
-    margin-top: 19%;
-    margin-right: 57%;
+// .BoxButton{
+//     margin-top: 19%;
+//     margin-right: 57%;
 
-    .PictureAbc{
-        margin-right: 18%;
-        width: 5%;
-        height: 5%;
-    }
+//     .PictureAbc{
+//         margin-right: 18%;
+//         width: 5%;
+//         height: 5%;
+//     }
 
 
-}
+// }
 
 button {
     border: none;
@@ -144,37 +144,17 @@ button {
     position: relative;
     width: 100%;
     height: 95vh;
-    // margin-left: 3px;
     background-color: rgb(251, 200, 105);
     border-radius: 10px;
-    // z-index: 1;
-    // margin-top: 6.6%;
 
-    // &::before {
-    //     content: '';
-    //     position: absolute;
-    //     top: -16%;
-    //     /* 調整這個值，控制 .back 向上延伸的高度 */
-    //     left: 0;
-    //     width: 100%;
-    //     height: 80%;
-    //     /* 額外向上延伸的高度 */
-    //     // background-color: inherit;
-    //     background-color: rgb(251, 200, 105);
-    //     border-radius: 10px;
-
-    //     // z-index: -1;
-    // }
 }
 
 .boxHoshi {
-    padding-top: 10%;
+    // padding-top: 10%;
     position: relative;
     width: 98%;
     height: 94vh;
     top:6vh;
-    // bottom: 5.9vh;
-    // margin-left: 0px;
     background: linear-gradient(to bottom, #fab80d 70%, #ffd134 100%);
     border-radius: 10px;
 
@@ -222,14 +202,13 @@ button {
     
     .back{
         height: 100vh;
-        width: 100%;
         border-radius: 0px;
     }
 
     .boxHoshi{
-        height: 100vh;
         width: 95%;
-        bottom: 0vh;
+        height: 95vh;
+        top:5vh;
 
         .animate__animated.animate__fadeInRight {
         position: absolute;
@@ -237,6 +216,10 @@ button {
         bottom: 0%;
         width: 95%; 
         height: 80vh;
+    }
+
+    .wordsH{
+        display: none;
     }
 
     }
