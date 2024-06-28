@@ -65,6 +65,13 @@ import Header from "./components/Header.vue";
   text-align: center;
 }
 
+html, body, #app {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /*.mouse-image {
   width: 50px;
   height: 50px;
