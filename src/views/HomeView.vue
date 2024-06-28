@@ -222,11 +222,12 @@ button {
     
     .back{
         height: 100vh;
+        width: 100%;
         border-radius: 0px;
     }
 
     .boxHoshi{
-        // height: 100vh;
+        height: 100vh;
         width: 95%;
         bottom: 0vh;
 
