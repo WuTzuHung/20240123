@@ -167,9 +167,9 @@ export default {
 	list-style: none;
 	font-family: 'Noto Sans TC', sans-serif;
 }
-html,body{
-	height: 100%;
-}
+// html,body{
+// 	height: 100%;
+// }
 body{
 	display: flex;
 	align-items: center;

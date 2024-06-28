@@ -147,7 +147,7 @@ export default {
     color: inherit;
     list-style: none;
 }
-html,
+// html,
 body {
     margin: 0;
     padding: 0;
