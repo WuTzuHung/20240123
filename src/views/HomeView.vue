@@ -221,21 +221,22 @@ button {
 @media (max-width: 450px) {
     
     .back{
-        height: 100dvh;
-        border-radius: 0px;
+        height: 98dvh;
+        // border-radius: 0px;
     }
 
     .boxHoshi{
-        width: 95%;
-        height: 95dvh;
-        top:5vh;
+        // width: 95%;
+        // max-height: 95dvh;
+        // top:5vh;
+        height: 98dvh;
 
         .animate__animated.animate__fadeInRight {
         position: absolute;
-        left: 9%;
-        bottom: 0%;
-        width: 95%; 
-        height: 80dvh;
+        // left: 9%;
+        // bottom: 0%;
+        // width: 95%; 
+        // height: 80dvh;
     }
 
     .wordsH{
