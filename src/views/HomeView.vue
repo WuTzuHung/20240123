@@ -61,9 +61,10 @@ export default {
             <button class="c PictureAbc" @click="this.hand()">
                 <img src="../picture/FITjkdEakAE1PHV.png" alt="Your Image" style="">
             </button>
+            
+            </div>
             <img src="../picture/hoshikawaseefuku.png" class="animate__animated animate__fadeInRight"
                 style="" alt="...">
-            </div>
         </div>
     </div>
 </template>
@@ -76,6 +77,11 @@ body{
     width: 100%;
     height: 100dvh;
 }
+
+// .BoxButton{
+//     margin-top: 29.5%;
+//     margin-right: 58%;
+// }
 
 // .BoxButton{
 //     margin-top: 19%;
@@ -142,30 +148,43 @@ button {
 }
 
 .back {
-    position: relative;
+    // position: relative;
     width: 100%;
-    height: 95vh;
+    height: 95.5vh;
     background-color: rgb(251, 200, 105);
     border-radius: 10px;
+    padding: 5px;
+    // overflow: hidden;
 
 }
 
 .boxHoshi {
-    // padding-top: 10%;
     position: relative;
+    // display: flex;
+    // align-items: center; //子元素在交叉軸上居中對齊
+    // // justify-content: center; //子元素在主軸上居中對齊
+    // justify-content: flex-end; //子元素在主軸末端對齊
     width: 98%;
-    height: 94vh;
-    top:6vh;
+    height: 100%;
+    // max-height: 100vh; /* 图片不超过父元素的高度 */
+
+    // top:6vh;
+    margin-top: 2%;
     background: linear-gradient(to bottom, #fab80d 70%, #ffd134 100%);
     border-radius: 10px;
+    // padding: 5px;
+    // overflow: hidden;
 
     // z-index: 2;
     .animate__animated.animate__fadeInRight {
         position: absolute;
-        left: 60%;
-        bottom: 0%;
-        width: 32%; 
-        height: 100vh;
+        right: 0;
+        bottom: 0;
+        // margin-bottom: 2.3%;
+        // height: 106%;
+        max-width: 100%; /* 图片不超过父元素的宽度 */
+        max-height: 107%; /* 图片不超过父元素的高度 */
+        // object-fit: contain; /* 等比例缩放 */
     }
 
     .h1get {
