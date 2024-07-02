@@ -150,10 +150,10 @@ button {
 .back {
     // position: relative;
     width: 100%;
-    height: 95.5vh;
+    height: 95.5dvh;
     background-color: rgb(251, 200, 105);
     border-radius: 10px;
-    padding: 5px;
+    padding: 0.1px;
     // overflow: hidden;
 
 }
@@ -165,25 +165,22 @@ button {
     // // justify-content: center; //子元素在主軸上居中對齊
     // justify-content: flex-end; //子元素在主軸末端對齊
     width: 98%;
-    height: 100%;
+    height: 95dvh; //設成%的話，寬度縮小人物會往上
     // max-height: 100vh; /* 图片不超过父元素的高度 */
 
     // top:6vh;
-    margin-top: 2%;
+    margin-top: 5dvh; //設成%的話，寬度縮小人物會往上
     background: linear-gradient(to bottom, #fab80d 70%, #ffd134 100%);
     border-radius: 10px;
     // padding: 5px;
     // overflow: hidden;
 
-    // z-index: 2;
     .animate__animated.animate__fadeInRight {
         position: absolute;
         right: 0;
         bottom: 0;
-        // margin-bottom: 2.3%;
-        // height: 106%;
         max-width: 100%; /* 图片不超过父元素的宽度 */
-        max-height: 107%; /* 图片不超过父元素的高度 */
+        max-height: 106%; /* 图片不超过父元素的高度 */
         // object-fit: contain; /* 等比例缩放 */
     }
 
