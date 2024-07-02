@@ -218,22 +218,23 @@ button {
 @media (max-width: 450px) {
     
     .back{
-        height: 98dvh;
-        // border-radius: 0px;
+        height: 100dvh;
+        border-radius: 0px;
+        display: flex;
+        justify-content: center; /* 水平居中 */
+        // align-items: center;
     }
 
     .boxHoshi{
-        // width: 95%;
-        // max-height: 95dvh;
-        // top:5vh;
-        height: 98dvh;
+        width: 95%;
+        height: 97dvh;
+        margin-top: 3dvh; //設成%的話，寬度縮小人物會往上
+        
 
         .animate__animated.animate__fadeInRight {
         position: absolute;
-        // left: 9%;
-        // bottom: 0%;
-        // width: 95%; 
-        // height: 80dvh;
+        right:-2%;
+        max-width: 65%; /* 图片不超过父元素的宽度 */
     }
 
     .wordsH{
