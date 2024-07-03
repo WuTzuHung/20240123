@@ -42,24 +42,24 @@ export default {
 <template>
     <div class="back">
         <div class="boxHoshi" style="">
-            <h1 class="animate__animated animate__backInLeft h1get wordsH">Getting to know </h1>
-            <h1 class="animate__animated animate__backInLeft h1hoshi wordsH">Hoshikawa</h1>
+            <h1 class="animate__animated animate__backInLeft h1get">Getting to know </h1>
+            <h1 class="animate__animated animate__backInLeft h1hoshi">Hoshikawa</h1>
             <p class="tex1 wordsH">For those curious about Hoshikawa, exploring in </p>
             <p class="tex2 wordsH">a fun and enjoyable way</p>
             <!-- <router-link to="/introduce"> -->
                 <div class="BoxButton">
-            <button class="a PictureAbc" @click="handleClick">
-                <img src="../picture/FITjkdEakAE1PHV.png" alt="Your Image" style="   ">
+            <button class="" @click="handleClick">
+                <img src="../picture/FITjkdEakAE1PHV.png" class="ImageA" alt="Your Image" style="   ">
             </button>
             <!-- </router-link> -->
 
-            <button class="b PictureAbc" @click="this.handle()">
-                <img src="../picture/FITjkdEakAE1PHV.png" alt="Your Image" style="  ">
+            <button class="" @click="this.handle()">
+                <img src="../picture/FITjkdEakAE1PHV.png" class="ImageA" alt="Your Image" style="  ">
             </button>
 
 
-            <button class="c PictureAbc" @click="this.hand()">
-                <img src="../picture/FITjkdEakAE1PHV.png" alt="Your Image" style="">
+            <button class="" @click="this.hand()">
+                <img src="../picture/FITjkdEakAE1PHV.png" class="ImageA" alt="Your Image" style="">
             </button>
             
             </div>
@@ -78,23 +78,7 @@ body{
     height: 100dvh;
 }
 
-// .BoxButton{
-//     margin-top: 29.5%;
-//     margin-right: 58%;
-// }
 
-// .BoxButton{
-//     margin-top: 19%;
-//     margin-right: 57%;
-
-//     .PictureAbc{
-//         margin-right: 18%;
-//         width: 5%;
-//         height: 5%;
-//     }
-
-
-// }
 
 button {
     border: none;
@@ -172,7 +156,7 @@ button {
     margin-top: 5dvh; //設成%的話，寬度縮小人物會往上
     background: linear-gradient(to bottom, #fab80d 70%, #ffd134 100%);
     border-radius: 10px;
-    // padding: 5px;
+    padding: 1px;
     // overflow: hidden;
 
     .animate__animated.animate__fadeInRight {
@@ -184,10 +168,20 @@ button {
         // object-fit: contain; /* 等比例缩放 */
     }
 
+    .ImageA{
+        max-width: 60%;
+}
+
+    .BoxButton{
+        position: absolute;
+        bottom: 15dvh;
+        left: 15%;
+}
+
     .h1get {
         position: absolute;
         left: 14.5%;
-        top: 25%;
+        top: 22dvh;
         font-size: 3.5rem;
 
     }
@@ -195,21 +189,21 @@ button {
     .h1hoshi {
         position: absolute;
         left: 19%;
-        top: 40%;
+        top: 37dvh;
         font-size: 3.5rem;
     }
 
     .tex1 {
         position: absolute;
         left: 16%;
-        top: 56%;
+        top: 56dvh;
         font-size:1rem;
     }
 
     .tex2 {
         position: absolute;
         left: 16%;
-        top: 63%;
+        top: 63dvh;
         font-size:1rem;
     }
     
@@ -225,6 +219,8 @@ button {
         // align-items: center;
     }
 
+    
+
     .boxHoshi{
         width: 95%;
         height: 97dvh;
@@ -232,10 +228,50 @@ button {
         
 
         .animate__animated.animate__fadeInRight {
-        position: absolute;
-        right:-2%;
-        max-width: 65%; /* 图片不超过父元素的宽度 */
+            position: absolute;
+            right:-2.5%;
+            max-width: 70%; /* 图片不超过父元素的宽度 */
+
+        
     }
+
+    .BoxButton{
+            position: absolute;
+            // bottom: 14dvh;
+            left: 0%;
+            right: 62%;
+}
+
+    .h1get {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 10dvh;
+        font-size: 2rem;
+
+    }
+
+    .h1hoshi {
+        position: absolute;
+        left: 0%; //left跟right都是0%就可以在縮放時對齊
+        right: 0%; 
+        top: 25dvh;
+        font-size: 2rem;
+    }
+
+    // .tex1 {
+    //     position: absolute;
+    //     left: 3%;
+    //     top: 35dvh;
+    //     font-size:0.85rem;
+    // }
+
+    // .tex2 {
+    //     position: absolute;
+    //     left: 3%;
+    //     top: 40dvh;
+    //     font-size:0.85rem;
+    // }
 
     .wordsH{
         display: none;
