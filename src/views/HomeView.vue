@@ -42,8 +42,8 @@ export default {
 <template>
     <div class="back">
         <div class="boxHoshi" style="">
-            <h1 class="animate__animated animate__backInLeft h1get">Getting to know </h1>
-            <h1 class="animate__animated animate__backInLeft h1hoshi">Hoshikawa</h1>
+            <p class="animate__animated animate__backInLeft h1get">Getting to know </p>
+            <h1 class="animate__animated animate__backInLeft h1hoshi">星川サラ</h1>
             <p class="tex1 wordsH">For those curious about Hoshikawa, exploring in </p>
             <p class="tex2 wordsH">a fun and enjoyable way</p>
             <!-- <router-link to="/introduce"> -->
@@ -188,8 +188,8 @@ button {
 
     .h1hoshi {
         position: absolute;
-        left: 19%;
-        top: 37dvh;
+        left: 21%;
+        top: 39dvh;
         font-size: 3.5rem;
     }
 
